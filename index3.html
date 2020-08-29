@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<head>
+    <title>Conditional Logic in JavaScript </title>
+    <script type = "text/JavaScript">
+            var value1 = 24;
+            var value2 = 23;
+            /*if (value1 > 30){
+                alert("first case")
+            }
+
+            else if (value2 < 30){
+                alert("second case")
+            }
+
+            else if (value2 === 30){
+                alert("third case")
+            }
+
+            else {
+                "forth case"
+            }
+
+            if (value1 > 20 && value2>20){
+                alert("true")
+            }
+
+            if (value1 === 24 || value2 ===23 ){
+                alert("yes")
+            }
+            val3 = false;
+            if (!value3)
+            var val4 = "";
+            val4 = (value1 === 24) ? "equal" : "not equal";
+            alert(val4);
+
+            var userName = "Sep";
+            switch ((userName)) {
+                case "Sep":
+                    document.write("Care for a coffee?");                    
+                    break;
+                case "Med":
+                    document.write("Welcome back, mate");
+                    break;            
+                default:
+                    document.write("Are you OK?");
+                    break;
+            }*/
+
+            var rightNow = new Date();
+            var currentHour = rightNow.getHours();
+            switch (true) {
+                case (currentHour > 8 && currentHour < 12):
+                    document.write("Morning, sunshine");                
+                    break;
+                case (currentHour === 12):
+                    document.write("Lunch time!");                       
+                    break;
+                case (currentHour > 12 && currentHour < 18):
+                    document.write("Dont fall sleep");               
+                    break;
+                    default:
+                    document.write("Careful, me think you are really hard at it")
+                    break;                
+            }
+
+
+    </script>
+</head>
+<body>
+    <h1>Conditional Logic in JavaScript </h1>
+</body>
+</html>
