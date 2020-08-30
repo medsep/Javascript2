@@ -8,16 +8,16 @@
     alert(x);*/
     myScope ="global";
     //hoisting
-    /*(function(){
+    (function(){
         if (true)
         {
              var myScope = "funct";
         }
-       // myScope = "I am inside";
+       myScope = "I am inside";
         alert('inside scope '+ myScope)
     })();
 
-    alert('outside scope '+ myScope)*/
+    alert('outside scope '+ myScope)
     alert('window.myScope: ' + window.myScope);
     
     </script>
